@@ -1,0 +1,15 @@
+<nav class="bg-gray-700">
+  <div class="max-w-7xl mx-auto">
+    <div class="relative flex items-center justify-between h-16">
+      <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+        <div class="hidden sm:block sm:ml-6">
+          <div class="flex space-x-4">
+            <a href="/" class="{{ if url == '/' }}bg-gray-900 text-white{{ else }}text-gray-300 hover:bg-gray-700 hover:text-white{{ /if }} px-3 py-2 rounded-md text-sm font-medium">English</a>
+            <a href="/french" class="{{ if url == '/french' }}bg-gray-900 text-white{{ else }}text-gray-300 hover:bg-gray-700 hover:text-white{{ /if }} px-3 py-2 rounded-md text-sm font-medium">French</a>
+            <a href="/italian" class="{{ if url == '/italian' }}bg-gray-900 text-white{{ else }}text-gray-300 hover:bg-gray-700 hover:text-white{{ /if }} px-3 py-2 rounded-md text-sm font-medium">Italian</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
